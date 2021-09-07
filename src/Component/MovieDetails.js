@@ -8,7 +8,6 @@ const MovieDetails = () => {
     const { id } = useParams();
     const dispatch = useDispatch();
     const result = useSelector(state => state.selectMovie)
-    console.log(result)
 
     const {Poster, Title, BoxOffice, Production, Released, Actors, Genre} = result
 

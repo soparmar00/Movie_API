@@ -17,7 +17,6 @@ const Home = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault()
-        console.log(movie.search, movie.type)
         dispatch(fetchData(movie))
     }
 
